@@ -2,23 +2,19 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-10-21T16:53:01.016+03:00"
-        cq:lastModifiedBy="admin"
-        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Home Page"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                jcr:created="{Date}2019-10-21T16:49:42.903+03:00"
+                jcr:created="{Date}2019-10-21T16:44:56.273+03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-10-21T16:49:47.623+03:00"
+                jcr:lastModified="{Date}2019-10-21T16:46:00.421+03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <first-article/>
 </jcr:root>
